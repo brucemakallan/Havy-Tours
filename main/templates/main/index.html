@@ -1,0 +1,569 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block bodycontent %}
+
+    <!-- start banner Area -->
+    <section class="banner-area relative">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row fullscreen align-items-center justify-content-between">
+                <div class="col-lg-6 col-md-6 banner-left">
+                    <h6 class="text-white">Away from monotonous life</h6>
+                    <h1 class="text-white">HAVY TOURS &amp; TRAVEL</h1>
+                    <p class="text-white">
+                        We help you explore new places, offer advice on destinations, manage and plan your Holiday.
+                    </p>
+                    <a href="#" class="primary-btn text-uppercase">Get Started</a>
+                </div>
+                <div class="col-lg-4 col-md-6 banner-right">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="flight-tab" data-toggle="tab" href="#flight" role="tab" aria-controls="flight" aria-selected="true">Booking</a>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade show active" id="flight" role="tabpanel" aria-labelledby="flight-tab">
+                        <form class="form-wrap">
+                            <input type="text" class="form-control date-picker" name="start" placeholder="From / Start " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Start '">
+                            <input type="text" class="form-control date-picker" name="return" placeholder="To / Return " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Return '">
+                            <input type="number" min="1" max="20" class="form-control" name="adults" placeholder="Adults " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Adults '">
+                            <input type="number" min="1" max="20" class="form-control" name="child" placeholder="Children " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Child '">
+                            <label><small>Select Service Required</small></label>
+                            <div class="input-group-icon mt-10">
+                                <!-- <div class="icon"><i class="fa fa-taxi" aria-hidden="true"></i></div> -->
+                                <div class="form-select" id="default-select">
+                                    <select>
+                                        <option>Airline &amp; Hotel Reservations</option>
+                                        <option>Bird watching</option>
+                                        <option>Birthday Camps</option>
+                                        <option>Boat Cruise </option>
+                                        <option>Bungee Jumping</option>
+                                        <option>Camping</option>
+                                        <option>Car &amp; Boat Hire services</option>
+                                        <option>Engagement Retreats</option>
+                                        <option>Forest walks</option>
+                                        <option>Gorilla Trekking</option>
+                                        <option>Honeymoon Packages</option>
+                                        <option>Island tours</option>
+                                        <option>Mountain Hikes</option>
+                                        <option>National Park Game drives</option>
+                                        <option>Quad Biking</option>
+                                        <option>Road Trips</option>
+                                        <option>Safari &amp; Tour Guiding</option>
+                                        <option>Sport Fishing</option>
+                                        <option>Study Tours - Worldwide</option>
+                                        <option>Team Building Retreats</option>
+                                        <option>Travel Consultancy</option>
+                                        <option>Water rafting</option>
+                                        <option>Zip lining</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input class="primary-btn text-uppercase" type="submit" name="btBook" value="Proceed to payment" >
+                        </form>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End banner Area -->
+
+
+    <!-- CAROUSEL AREA -->
+    <section id="carousel-section">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-item-image" style="background-image: url('{% static 'main/img/carousel/1.jpg' %}');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item-image" style="background-image: url('{% static 'main/img/carousel/2.jpg' %}');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item-image" style="background-image: url('{% static 'main/img/carousel/3.jpg' %}');"></div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- End Carousel Area -->
+
+
+    <!-- About info - Introduction -->
+    <section class="about-info section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="{% static 'main/img/logo_large.png' %}" style="width: 100%;">
+                </div>
+                <div class="col-lg-9">
+                    <p>Havy Tours &amp; Travel is a tourism agency registered in Uganda under Havy Media (U) LTD with full commitment to explore the world and tourism skills development. The company is firmly founded on a passion for exploration and exposition of Natural beauty in Uganda and the world over.</p>
+                    <p>We help you explore new places, offer advice on destinations, manage and plan your Holiday.</p>
+                    <p>We are devoted to offering exceptional world class tour and travel services at the most efficient cost.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About info/intro -->
+
+
+    <!-- Start Major Services Area -->
+    <section class="popular-destination-area section-gap">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-content pb-70 col-lg-8">
+                    <div class="title text-center">
+                        <h1 class="mb-10">Services</h1>
+                        <p>We are a unique brand with creative Tourism concepts that boast of conceptual inspiration. All our services are delivered by a super team that is passionate about client satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 mt-3">
+                    <div class="single-destination relative">
+                        <div class="thumb relative">
+                            <div class="overlay overlay-bg"></div>
+                            <img class="img-fluid" src="{% static 'main/img/services/study.jpg' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <a href="#" class="price-btn">Book</a>
+                            <h4>Worldwide Study Tours</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-3">
+                    <div class="single-destination relative">
+                        <div class="thumb relative">
+                            <div class="overlay overlay-bg"></div>
+                            <img class="img-fluid" src="{% static 'main/img/services/airline.jpg' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <a href="#" class="price-btn">Book</a>
+                            <h4>Airline Ticketing &amp; Hotel Reservations</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-3">
+                    <div class="single-destination relative">
+                        <div class="thumb relative">
+                            <div class="overlay overlay-bg"></div>
+                            <img class="img-fluid" src="{% static 'main/img/services/birthday.jpg' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <a href="#" class="price-btn">Book</a>
+                            <h4>Birthday Camps</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-3">
+                    <div class="single-destination relative">
+                        <div class="thumb relative">
+                            <div class="overlay overlay-bg"></div>
+                            <img class="img-fluid" src="{% static 'main/img/services/engagement.jpg' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <a href="#" class="price-btn">Book</a>
+                            <h4>Engagement Retreats</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-3">
+                    <div class="single-destination relative">
+                        <div class="thumb relative">
+                            <div class="overlay overlay-bg"></div>
+                            <img class="img-fluid" src="{% static 'main/img/services/honeymoon.jpg' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <a href="#" class="price-btn">Book</a>
+                            <h4>Honeymoon Packages</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-3">
+                    <div class="single-destination relative">
+                        <div class="thumb relative">
+                            <div class="overlay overlay-bg"></div>
+                            <img class="img-fluid" src="{% static 'main/img/services/boat.jpg' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <a href="#" class="price-btn">Book</a>
+                            <h4>Car &amp; Boat Hire services</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-3">
+                    <div class="single-destination relative">
+                        <div class="thumb relative">
+                            <div class="overlay overlay-bg"></div>
+                            <img class="img-fluid" src="{% static 'main/img/services/forest.jpg' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <a href="#" class="price-btn">Book</a>
+                            <h4>Gorilla Trekking</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-3">
+                    <div class="single-destination relative">
+                        <div class="thumb relative">
+                            <div class="overlay overlay-bg"></div>
+                            <img class="img-fluid" src="{% static 'main/img/services/safari.jpg' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <a href="#" class="price-btn">Book</a>
+                            <h4>Safari &amp; Tour Guiding</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-3 mt-3">
+                    <div class="single-destination relative">
+                        <div class="thumb relative">
+                            <div class="overlay overlay-bg"></div>
+                            <img class="img-fluid" src="{% static 'main/img/services/work.jpg' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <a href="#" class="price-btn">Book</a>
+                            <h4>Team Building Retreats</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-3">
+                    <div class="single-destination relative">
+                        <div class="thumb relative">
+                            <div class="overlay overlay-bg"></div>
+                            <img class="img-fluid" src="{% static 'main/img/services/walk.jpg' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <a href="#" class="price-btn">Book</a>
+                            <h4>Travel Consultancy</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+    </section>
+    <!-- End Major Services Area -->
+
+
+    <!-- Start Packages Area -->
+    <section class="price-area section-gap">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-content pb-70 col-lg-8">
+                    <div class="title text-center">
+                        <h1 class="mb-10">Group Packages</h1>
+                        <p>We Provide Affordable Prices</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="single-price">
+                        <h4>Corporate Packages</h4>
+                        <ul class="unordered-list">
+                            <li><small>20 People</small></li>
+                            <li><small>Rafting</small></li>
+                            <li><small>Bungee</small></li>
+                            <li><small>Diving</small></li>
+                            <li><small>Safari</small></li>
+                        </ul>
+                        <a href="#" class="genric-btn primary">$1500</a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="single-price">
+                        <h4>Social Packages</h4>
+                        <ul class="unordered-list">
+                            <li><small>50 People</small></li>
+                            <li><small>Rafting</small></li>
+                            <li><small>Bungee</small></li>
+                            <li><small>Diving</small></li>
+                            <li><small>Safari</small></li>
+                        </ul>
+                        <a href="#" class="genric-btn primary">$3000</a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="single-price">
+                        <h4>Adventure Packages</h4>
+                        <ul class="unordered-list">
+                            <li><small>10 People</small></li>
+                            <li><small>Rafting</small></li>
+                            <li><small>Bungee</small></li>
+                            <li><small>Diving</small></li>
+                            <li><small>Safari</small></li>
+                        </ul>
+                        <a href="#" class="genric-btn primary">$1000</a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="single-price">
+                        <h4>School Packages</h4>
+                        <ul class="unordered-list">
+                            <li><small>40 People</small></li>
+                            <li><small>Rafting</small></li>
+                            <li><small>Bungee</small></li>
+                            <li><small>Diving</small></li>
+                            <li><small>Safari</small></li>
+                        </ul>
+                        <a href="#" class="genric-btn primary">$4500</a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="single-price">
+                        <h4>Family Packages</h4>
+                        <ul class="unordered-list">
+                            <li><small>8 People</small></li>
+                            <li><small>Rafting</small></li>
+                            <li><small>Bungee</small></li>
+                            <li><small>Diving</small></li>
+                            <li><small>Safari</small></li>
+                        </ul>
+                        <a href="#" class="genric-btn primary">$900</a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="single-price">
+                        <h4>Custom Packages</h4>
+                        <small>Get your very own, unique custom package. Tailor-made just for you</small>
+                        <a href="#" class="genric-btn primary mt-2">Quotation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Packages Area -->
+
+
+    <!-- Start other-services Area -->
+    <section class="recent-blog-area section-gap">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-content pb-60 col-lg-9">
+                    <div class="title text-center">
+                        <h1 class="mb-10">Customized Tours</h1>
+                        <p>Let our specialists lead you to discover the very best of Uganda. Customize your vacation according to your style and don't miss out on anything!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="active-recent-blog-carusel">
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/road.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">Road Trips</h4></a>
+                            <p>Kick back, relax and let's show you the country on wheels</p>
+                        </div>
+                    </div>
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/park2.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">National Park Game drives</h4></a>
+                            <p>Take a more personal and closer look at the best nature has to offer</p>
+                        </div>
+                    </div>
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/forest.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">Forest walks</h4></a>
+                            <p>From beautiful vegetation to magestic trees</p>
+                        </div>
+                    </div>
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/camping.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">Camping</h4></a>
+                            <p>A quieter and calmer adventure under the open sky</p>
+                        </div>
+                    </div>
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/6.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">Island tours</h4></a>
+                            <p>Explore some of the most astounding Islands</p>
+                        </div>
+                    </div>
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/zip4.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">Zip lining</h4></a>
+                            <p>Nothing like the feeling of the wind rushing past</p>
+                        </div>
+                    </div>
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/bungee.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">Bungee Jumping</h4></a>
+                            <p>Be Bold. Be Wild. Live Free. Jump!</p>
+                        </div>
+                    </div>
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/rafting.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">Water rafting</h4></a>
+                            <!-- <p>Desc</p> -->
+                        </div>
+                    </div>
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/crane.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">Bird watching</h4></a>
+                            <!-- <p>Desc</p> -->
+                        </div>
+                    </div>
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/fishing.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">Sport Fishing</h4></a>
+                            <!-- <p>Desc</p> -->
+                        </div>
+                    </div>
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/quad.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">Quad Biking</h4></a>
+                            <!-- <p>Desc</p> -->
+                        </div>
+                    </div>
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/hike.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">Mountain Hikes</h4></a>
+                            <!-- <p>Desc</p> -->
+                        </div>
+                    </div>
+                    <div class="single-recent-blog-post item">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/services/boat.jpg' %}" alt="">
+                        </div>
+                        <div class="details">
+                            <a href="#"><h4 class="title">Boat Cruise </h4></a>
+                            <!-- <p>Desc</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End other-services Area -->
+
+
+    <!-- Start testimonial Area -->
+    <section class="testimonial-area section-gap">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-content pb-70 col-lg-8">
+                    <div class="title text-center">
+                        <h1 class="mb-10">Testimonial from our Clients</h1>
+                        <p>Need more proof of our outstanding services? Hear it directly from some of our Clients</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="active-testimonial">
+                    <div class="single-testimonial item d-flex flex-row">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/elements/user2.png' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <h4>Jane Katto</h4>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-testimonial item d-flex flex-row">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/elements/user1.png' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <h4>Aki Ramesh</h4>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-testimonial item d-flex flex-row">
+                        <div class="thumb">
+                            <img class="img-fluid" src="{% static 'main/img/elements/user1.png' %}" alt="">
+                        </div>
+                        <div class="desc">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <h4>Alice Kells</h4>
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End testimonial Area -->
+
+    <!-- Start Custom-Package Area -->
+    <section class="home-about-area">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-end">
+                <div class="col-lg-6 col-md-12 home-about-left">
+                    <h1>
+                        Did not find your Package? <br>
+                        Feel free to ask us. <br>
+                        We‘ll make it for you
+                    </h1>
+                    <p>
+                        Just let us know what you wish to see, experience and/or explore as far as Tours and Travel are concerned. We've got you covered.
+                    </p>
+                    <a href="#" class="primary-btn text-uppercase">request custom price</a>
+                </div>
+                <div class="col-lg-6 col-md-12 home-about-right no-padding">
+                    <img class="img-fluid" src="{% static 'main/img/services/fun.jpg' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Custom-Package Area -->
+
+{% endblock %}
+

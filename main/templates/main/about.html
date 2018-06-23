@@ -1,16 +1,84 @@
 {% extends 'main/base.html' %}
+{% load static %}
 
 {% block bodycontent %}
-    <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
-            <h1>About</h1>
-            Create some content here<br> Create some content here<br> Create some content here<br> Create some content here<br>
-            Create some content here<br> Create some content here<br> Create some content here<br> Create some content here<br>
-            Create some content here<br> Create some content here<br> Create some content here<br> Create some content here<br>
-            Create some content here<br> Create some content here<br> Create some content here<br> Create some content here<br>
-            Create some content here<br> Create some content here<br> Create some content here<br> Create some content here<br>
+
+    <!-- start banner Area -->
+    <section class="relative about-banner">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="about-content col-lg-12">
+                    <h1 class="text-white">
+                        About Havy Tours &amp; Travel
+                    </h1>
+                    <p class="text-white link-nav"><a href="{% url 'main:index' %}">Home </a>  <span class="lnr lnr-arrow-right"></span>  About</p>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <!-- End banner Area -->
+
+    <!-- About info Area -->
+    <section class="about-info-all section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 p-3">
+                    <img src="{% static 'main/img/logo_large.png' %}" style="width: 100%;">
+                </div>
+                <div class="col-sm-9 p-3">
+                    <br>
+                    <p>Havy Tours & Travel is a tourism agency registered in Uganda under Havy Media (U) LTD with full commitment to explore the world and tourism skills development. The company is firmly founded on a passion for exploration and exposition of Natural beauty in Uganda and the world over.</p>
+                    <p>We help you explore new places, offer advice on destinations, manage and plan your Holiday.</p>
+                </div>
+                <div class="col-sm-12 p-3 largetext">
+                    <h2>OUR MISSION</h2>
+                    <p>We are devoted to offering exceptional world class tour and travel services at the most efficient cost.</p>
+
+                    <h2>OUR COMPANY OBJECTIVES</h2>
+                    <ul class="unordered-list">
+                        <li>To merge and integrate the World tourism market locally.</li>
+                        <li>To satisfy the increasing tourism demands around Uganda and the world over.</li>
+                        <li>To deliver innovative, unique and outstanding fairly priced and cost effective tour packages.</li>
+                        <li>To explore and expose the amazing natural beauty and charm of the world through positively impacting Nature Films, TV shows and Documentaries.</li>
+                    </ul>
+
+                    <h2>OUR VISION</h2>
+                    <p>To grow into a leading tour and Travel agency offering the most affordable services on the market.</p>
+
+                    <h2>OUR STRENGTH</h2>
+                    <p>We are a unique brand with creative Tourism concepts that boast of conceptual inspiration. All our services are delivered by a super team that is passionate about client satisfaction.</p>
+
+                    <h2>OUR TRANSPORT SERVICES</h2>
+                    <p>Finding your way around a foreign country or district can be tricky and even overwhelming at times. That is why Havy tours and travel provides you with a nationwide secure and comfortable shuttle service so you can just sit and enjoy the ride! Our shuttles are comfortable, with professionally trained drivers.</p>
+                    <p>Explore Uganda more in depth, still connecting with the organized tour, but also with the freedom to move around the country at their pace in their own 4x4 rental car.</p>
+
+                    <h4>AIRPORT SHUTTLES</h4>
+                    <p>Need a ride to or from the airport? We got you covered! Havy tours and travel offers Airport shuttle services to and from Entebbe International Airport.  Reliability is what we mostly care about.</p>
+
+                    <blockquote class="generic-blockquote">
+                        “No one realizes how beautiful it is to travel until he comes home and rests his head on his old, familiar pillow.” – Lin Yutang<br><br>
+                        “We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.” – Jawaharial Nehru
+                    </blockquote>
+
+                    <h4>LET’S PLAN YOUR TRIP </h4>
+                    <p>At Havy tours, we will adopt your trip idea, visualize it and endeavour to make it a reality. From the itinerary, what to pack, means and kind of transportation, Activities, meals and Accommodation. Inspiration is what defines us! </p>
+
+                    <p>We have access to all necessary concepts that enable us attain the Best itinerary for your travel. </p>
+
+                    <p>We have mastered the art of travel just to strategize the best trip packages for our clients.</p>
+
+                    <p>Our adventure techniques are special and professional to give you a feel that tells a story fully.</p>
+
+                    <p>Our team has grasped the tactics that boost your confidence while on tour. Making your travel more comfortable, adventurous and memorable is our greatest care and one of the many reasons you should hire us!</p>
+
+                    <p>Tour and Travel is a true passion for us. We design different tour and travel fun packages for a variety of our clients. For many years we look out for that “ah-ha” moment when you request for a truly great trip experience and that’s what we exactly offer you. </p>
+                    <p>We generate better and more effective escapade packages to achieve great adventurous results without exhausting your budget. We are also integrating Internet advertising and social media platforms to assist you boast your travel plan</p>
+
+                    <h3>BOOK with us and enjoy the Cheapest Places to Travel any month of the Year</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 {% endblock %}
 

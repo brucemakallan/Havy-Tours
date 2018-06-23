@@ -28,6 +28,3 @@ def gallery(request):
 def packages(request):
     return render(request, 'main/packages.html')
 
-
-def services(request):
-    return render(request, 'main/services.html')

@@ -12,5 +12,4 @@ urlpatterns = [
     path('downloads', views.downloads, name='downloads'),
     path('gallery', views.gallery, name='gallery'),
     path('packages', views.packages, name='packages'),
-    path('services', views.services, name='services'),
 ]

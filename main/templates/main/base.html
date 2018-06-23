@@ -34,7 +34,7 @@
         <link rel="stylesheet" href="{% static 'main/css/custom_styles.css' %}">
 	</head>
 
-	<body>
+	<body data-spy="scroll" data-target=".main-menu" data-offset="50">
 		<header id="header">
 			<div class="header-top">
 				<div class="container">
@@ -61,7 +61,7 @@
 			        <ul class="nav-menu">
 			          <li><a href="{% url 'main:index' %}">Home</a></li>
 			          <li><a href="{% url 'main:about' %}">About</a></li>
-			          <li><a href="{% url 'main:services' %}">Services</a></li>
+			          <li><a href="{% url 'main:index' %}#services">Services</a></li>
 			          <li><a href="{% url 'main:gallery' %}">Gallery</a></li>
 			          <li><a href="{% url 'main:packages' %}">Packages</a></li>
 			          <li><a href="{% url 'main:booking' %}">Booking</a></li>

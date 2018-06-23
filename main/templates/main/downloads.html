@@ -1,16 +1,46 @@
 {% extends 'main/base.html' %}
+{% load static %}
 
 {% block bodycontent %}
-    <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
-            <h1>Downloads</h1>
-            Create some content here<br> Create some content here<br> Create some content here<br> Create some content here<br>
-            Create some content here<br> Create some content here<br> Create some content here<br> Create some content here<br>
-            Create some content here<br> Create some content here<br> Create some content here<br> Create some content here<br>
-            Create some content here<br> Create some content here<br> Create some content here<br> Create some content here<br>
-            Create some content here<br> Create some content here<br> Create some content here<br> Create some content here<br>
+
+    <!-- start banner Area -->
+    <section class="relative about-banner">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="about-content col-lg-12">
+                    <h1 class="text-white">
+                        Downloads
+                    </h1>
+                    <p class="text-white link-nav"><a href="{% url 'main:index' %}">Home </a>  <span class="lnr lnr-arrow-right"></span> Downloads</p>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <!-- End banner Area -->
+
+    <!-- End content Area -->
+    <section class="about-info-all section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Itenerary</h3>
+                    <p>Short description about the document. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p><a target="_blank" href="https://www2.psych.ubc.ca/~klonsky/publications/AnnualReview2016.pdf"><i class="fa fa-download"></i> [PDF] Download</a></p>
+
+                    <h3 class="mt-5">About the company</h3>
+                    <p>Short description about the document. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p><a target="_blank" href="https://www2.psych.ubc.ca/~klonsky/publications/AnnualReview2016.pdf"><i class="fa fa-download"></i> [PDF] Download</a></p>
+
+                    <h3 class="mt-5">Portfolio</h3>
+                    <p>Short description about the document. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p><a target="_blank" href="https://www2.psych.ubc.ca/~klonsky/publications/AnnualReview2016.pdf"><i class="fa fa-download"></i> [PDF] Download</a></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End content Area -->
+
 {% endblock %}
 

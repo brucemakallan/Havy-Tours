@@ -23,20 +23,13 @@
     <section class="about-info-all section-gap">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <h3>Itenerary</h3>
-                    <p>Short description about the document. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <p><a target="_blank" href="https://www2.psych.ubc.ca/~klonsky/publications/AnnualReview2016.pdf"><i class="fa fa-download"></i> [PDF] Download</a></p>
-
-                    <h3 class="mt-5">About the company</h3>
-                    <p>Short description about the document. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <p><a target="_blank" href="https://www2.psych.ubc.ca/~klonsky/publications/AnnualReview2016.pdf"><i class="fa fa-download"></i> [PDF] Download</a></p>
-
-                    <h3 class="mt-5">Portfolio</h3>
-                    <p>Short description about the document. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <p><a target="_blank" href="https://www2.psych.ubc.ca/~klonsky/publications/AnnualReview2016.pdf"><i class="fa fa-download"></i> [PDF] Download</a></p>
-
-                </div>
+                {% for download_entry in download_entries %}
+                    <div class="col-sm-12 my-3">
+                        <h3>{{ download_entry.title }}</h3>
+                        <p>{{ download_entry.description }}</p>
+                        <p><a target="_blank" href="{{ download_entry.url }}"></i> [{{ download_entry.file_type }}] Download</a></p>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </section>

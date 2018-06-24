@@ -1,4 +1,7 @@
 from django.shortcuts import render
+from django.views import generic
+
+from main.models import Download
 
 
 def index(request):
@@ -17,8 +20,10 @@ def contact(request):
     return render(request, 'main/contact.html')
 
 
-def downloads(request):
-    return render(request, 'main/downloads.html')
+class DownloadsListView(generic.ListView):
+    model = Download
+    context_object_name = 'download_entries'
+    template_name = 'main/downloads.html'
 
 
 def gallery(request):

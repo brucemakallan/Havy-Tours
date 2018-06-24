@@ -76,13 +76,13 @@
         <div id="demo" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="carousel-item-image" style="background-image: url('{% static 'main/img/carousel/1.jpg' %}');"></div>
+              <div class="carousel-item-image" style="background-image: url('{{ carousel_items.0.url }}');"></div>
             </div>
-            <div class="carousel-item">
-              <div class="carousel-item-image" style="background-image: url('{% static 'main/img/carousel/2.jpg' %}');"></div>
+              <div class="carousel-item">
+              <div class="carousel-item-image" style="background-image: url('{{ carousel_items.1.url }}');"></div>
             </div>
-            <div class="carousel-item">
-              <div class="carousel-item-image" style="background-image: url('{% static 'main/img/carousel/3.jpg' %}');"></div>
+              <div class="carousel-item">
+              <div class="carousel-item-image" style="background-image: url('{{ carousel_items.2.url }}');"></div>
             </div>
           </div>
         </div>

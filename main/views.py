@@ -1,11 +1,13 @@
 from django.shortcuts import render
 from django.views import generic
 
-from main.models import Download
+from main.models import Download, Carousel
 
 
-def index(request):
-    return render(request, 'main/index.html')
+class IndexListView(generic.ListView):
+    model = Carousel
+    context_object_name = 'carousel_items'
+    template_name = 'main/index.html'
 
 
 def about(request):

@@ -1,0 +1,72 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block bodycontent %}
+
+    <!-- start banner Area -->
+    <section class="relative about-banner">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="about-content col-lg-12">
+                    <h1 class="text-white">
+                        Travel Shop
+                    </h1>
+                    <p class="text-white link-nav"><a href="{% url 'main:index' %}">Home </a>  <span class="lnr lnr-arrow-right"></span> Shop</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End banner Area -->
+
+
+    <!-- End content Area -->
+    <section class="home-about-area">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-end">
+                <div class="col-lg-6 col-md-12 home-about-right no-padding">
+                    <img class="img-fluid" src="{% static 'main/img/shop/tent.jpg' %}" alt="Shop Item Image">
+                </div>
+                <div class="col-lg-6 col-md-12 section-gap" style="padding-left: 10%">
+                    <h1>Camping tents</h1>
+                    <a class="genric-btn primary circle mt-4" href="{% url 'main:contact' %}">Contact Us</a>
+                </div>
+
+                <div class="col-lg-6 col-md-12 section-gap" style="padding-left: 10%">
+                    <h1>Water Rafting boat</h1>
+                    <a class="genric-btn primary circle mt-4" href="{% url 'main:contact' %}">Contact Us</a>
+                </div>
+                <div class="col-lg-6 col-md-12 home-about-right no-padding">
+                    <img class="img-fluid" src="{% static 'main/img/shop/rafting-boat.jpg' %}" alt="Shop Item Image">
+                </div>
+
+                <div class="col-lg-6 col-md-12 home-about-right no-padding">
+                    <img class="img-fluid" src="{% static 'main/img/shop/spa.jpg' %}" alt="Shop Item Image">
+                </div>
+                <div class="col-lg-6 col-md-12 section-gap" style="padding-left: 10%">
+                    <h1>Hot Tub SPA (Jacuzzi)</h1>
+                    <a class="genric-btn primary circle mt-4" href="{% url 'main:contact' %}">Contact Us</a>
+                </div>
+
+                <div class="col-lg-6 col-md-12 section-gap" style="padding-left: 10%">
+                    <h1>Neck travel Pillow</h1>
+                    <a class="genric-btn primary circle mt-4" href="{% url 'main:contact' %}">Contact Us</a>
+                </div>
+                <div class="col-lg-6 col-md-12 home-about-right no-padding">
+                    <img class="img-fluid" src="{% static 'main/img/shop/pillow.jpg' %}" alt="Shop Item Image">
+                </div>
+
+                <div class="col-lg-6 col-md-12 home-about-right no-padding">
+                    <img class="img-fluid" src="{% static 'main/img/shop/sleeping-bag.jpg' %}" alt="Shop Item Image">
+                </div>
+                <div class="col-lg-6 col-md-12 section-gap" style="padding-left: 10%">
+                    <h1>Sleeping Bags</h1>
+                    <a class="genric-btn primary circle mt-4" href="{% url 'main:contact' %}">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End content Area -->
+
+{% endblock %}
+

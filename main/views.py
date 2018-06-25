@@ -21,6 +21,10 @@ def booking(request):
     return render(request, 'main/booking.html')
 
 
+def shop(request):
+    return render(request, 'main/shop.html')
+
+
 def contact(request):
     return render(request, 'main/contact.html')
 

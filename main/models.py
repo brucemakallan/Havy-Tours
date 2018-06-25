@@ -17,3 +17,18 @@ class Carousel(models.Model):
     def __str__(self):
         return "url: {}".format(self.url)
 
+
+RATING_CHOICES = (
+    (1, '1'),
+    (2, '2'),
+    (3, '3'),
+    (4, '4'),
+    (5, '5')
+)
+class Testimonial(models.Model):
+    name = models.CharField(max_length=100)
+    details = models.TextField()
+    rating = models.IntegerField(default=4, choices=RATING_CHOICES)
+
+    def __str__(self):
+        return self.name

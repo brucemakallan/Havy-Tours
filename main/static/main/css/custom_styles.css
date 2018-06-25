@@ -9,6 +9,9 @@ body, html {
 	color: #333;
 }
 
+.image-bg {
+	background: url('../img/price-bg.png');
+}
 
 /* Carousel */
 #carousel-section {

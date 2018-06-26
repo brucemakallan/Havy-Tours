@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a9358ba-3e46-47b9-a57a-360f5a8766d5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/havytours/settings.py" afterPath="$PROJECT_DIR$/havytours/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/havytours/wsgi.py" afterPath="$PROJECT_DIR$/havytours/wsgi.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,12 +29,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/havytours/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="122" column="18" lean-forward="false" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+            <state relative-caret-position="190">
+              <caret line="121" column="12" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="12" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/havytours/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#225#234#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +77,8 @@
       <find>STATICFILES_</find>
       <find>STATICFILES_S</find>
       <find>WHITE</find>
+      <find>static/</find>
+      <find>STATIC_ROOT</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;{% static 'main/img/services/</replace>
@@ -96,6 +111,7 @@
         <option value="$PROJECT_DIR$/main/templates/main/sendmail.html" />
         <option value="$PROJECT_DIR$/main/views.py" />
         <option value="$PROJECT_DIR$/havytours/settings.py" />
+        <option value="$PROJECT_DIR$/havytours/wsgi.py" />
       </list>
     </option>
   </component>
@@ -558,9 +574,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/havytours/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="122" column="18" lean-forward="false" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+        <state relative-caret-position="190">
+          <caret line="121" column="12" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/havytours/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#225#234#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

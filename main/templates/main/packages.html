@@ -65,77 +65,35 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="single-destinations">
-                        <div class="details">
-                            <h4 style="width: 100%; text-align: center">DUBAI</h4>
-                            <ul class="unordered-list border-top border-bottom py-2">
-                                <li>U.E.A Tourist VISA For Both</li>
-                                <li>Return Air tickets on Fly Dubai (Depends on early booking)</li>
-                                <li>Bed and Breakfast</li>
-                                <li>Return Airport Transfers</li>
-                                <li>City Tour of Dubai with English speaking Guide</li>
-                                <li>Limo Ride as a couple treat</li>
-                                <li>Desert Safari tour With BBQ and Belly Dance</li>
-                                <li>Dhow Cruise including Buffet Dinner</li>
-                            </ul>
-                            <div class="mt-4">
-                                <h6 class="mb-3">FEES: (COUPLE)</h6>
-                                <p>04 nights in a 4-star Hotel<br><a class="price-btn" href="#">USD 1,900</a></p>
-                                <p>10 nights in a 4-star Hotel<br><a class="price-btn" href="#">USD 2,500</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4">
-                    <div class="single-destinations">
-                        <div class="details">
-                            <h4 style="width: 100%; text-align: center">ZANZIBAR</h4>
-                            <ul class="unordered-list border-top border-bottom py-2">
-                                <li>Flights (Two way)</li>
-                                <li>Airport transfers</li>
-                                <li>Dolphin Area</li>
-                                <li>Stone town tour</li>
-                                <li>Spice plantation tour</li>
-                                <li>Fhorothan park</li>
-                                <li>Palace Musuem</li>
-                                <li>Former slave Trade market</li>
-                                <li>Zanzibar food market</li>
-                                <li>Kendwa Beach</li>
-                                <li>Bed and Breakfast</li>
-                            </ul>
-                            <div class="mt-4">
-                                <h6 class="mb-3">FEES: (COUPLE)</h6>
-                                <p>05 nights in a 4-star Hotel near the Ocean<br><a class="price-btn" href="#">USD 1,850</a></p>
-                                <p>10 nights in a 4-star Hotel near the Ocean<br><a class="price-btn" href="#">USD 2,200</a></p>
-                                <p>05 nights in a 5-star Hotel near the Ocean<br><a class="price-btn" href="#">USD 2,700</a></p>
+                {% for package in all_packages %}
+                    <div class="col-lg-4">
+                        <div class="single-destinations">
+                            <div class="details">
+                                <h4 style="width: 100%; text-align: center">{{ package.title }}</h4>
+                                <ul class="unordered-list border-top border-bottom py-2">
+                                    {% for package_term in all_package_terms %}
+                                        {% if package_term.package == package %}
+                                            <li>{{ package_term.term }}</li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                                <div class="mt-4">
+                                    <h6 class="mb-3">{{ package.details }}</h6>
+                                    {% for package_price in all_package_prices %}
+                                        {% if package_price.package == package %}
+                                            <p>
+                                                {{ package_price.description }}<br>
+                                                <a class="price-btn" href="#">{{ package_price.price }}</a>
+                                            </p>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                {% endfor %}
 
-                <div class="col-lg-4">
-                    <div class="single-destinations">
-                        <div class="details">
-                            <h4 style="width: 100%; text-align: center">MOMBASA</h4>
-                            <ul class="unordered-list border-top border-bottom py-2">
-                                <li>Flights</li>
-                                <li>Airport transfers</li>
-                                <li>Mombasa Town tour</li>
-                                <li>Diani Beach experience</li>
-                                <li>Old Fort Jesus tour</li>
-                                <li>Ivory Tower</li>
-                                <li>Bed and Breakfast</li>
-                            </ul>
-                            <div class="mt-4">
-                                <h6 class="mb-3">FEES: (COUPLE)</h6>
-                                <p>05 nights in a 4 star Hotel at the Ocean<br><a class="price-btn" href="#">USD 1,600</a></p>
-                                <p>08 nights in a 4 Star Hotel at the Ocean<br><a class="price-btn" href="#">USD 2,000</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>

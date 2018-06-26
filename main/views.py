@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import generic
 
-from main.models import Download, Carousel, Testimonial
+from main.models import Download, Carousel, Testimonial, Package, PackageTerm, PackagePrice
 
 
 def index(request):
@@ -40,5 +40,16 @@ def gallery(request):
 
 
 def packages(request):
-    return render(request, 'main/packages.html')
+    all_packages = Package.objects.all()
+    all_package_terms = PackageTerm.objects.all()
+    all_package_prices = PackagePrice.objects.all()
+    return render(request, 'main/packages.html', dict(
+        all_packages=all_packages,
+        all_package_terms=all_package_terms,
+        all_package_prices=all_package_prices
+    ))
+
+
+def ValuesQuerySetToDict(vqs):
+    return [item for item in vqs]
 

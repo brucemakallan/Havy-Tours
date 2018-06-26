@@ -25,6 +25,8 @@ RATING_CHOICES = (
     (4, '4'),
     (5, '5')
 )
+
+
 class Testimonial(models.Model):
     name = models.CharField(max_length=100)
     details = models.TextField()
@@ -32,3 +34,28 @@ class Testimonial(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Package(models.Model):
+    title = models.CharField(max_length=1000)
+    details = models.TextField(null=True, blank=True)
+
+    def __str__(self):
+        return self.title
+
+
+class PackageTerm(models.Model):
+    package = models.ForeignKey(Package, on_delete=models.CASCADE)
+    term = models.CharField(max_length=1000)
+
+    def __str__(self):
+        return "{} : {}".format(self.package.title, self.term)
+
+
+class PackagePrice(models.Model):
+    package = models.ForeignKey(Package, on_delete=models.CASCADE)
+    description = models.CharField(max_length=1000, null=True, blank=True)
+    price = models.CharField(max_length=100)
+
+    def __str__(self):
+        return "{} : {} : {}".format(self.package.title, self.price, self.description)

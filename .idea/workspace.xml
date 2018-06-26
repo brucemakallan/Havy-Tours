@@ -14,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -22,6 +22,16 @@
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/havytours/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12">
+              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,7 +80,6 @@
         <option value="$PROJECT_DIR$/main/admin.py" />
         <option value="$PROJECT_DIR$/main/models.py" />
         <option value="$PROJECT_DIR$/main/templates/main/packages.html" />
-        <option value="$PROJECT_DIR$/havytours/settings.py" />
         <option value="$PROJECT_DIR$/main/templates/main/sendmail.py" />
         <option value="$PROJECT_DIR$/main/static/main/js/mail-script.js" />
         <option value="$PROJECT_DIR$/main/templates/main/base.html" />
@@ -78,6 +87,7 @@
         <option value="$PROJECT_DIR$/main/templates/main/contact.html" />
         <option value="$PROJECT_DIR$/main/templates/main/sendmail.html" />
         <option value="$PROJECT_DIR$/main/views.py" />
+        <option value="$PROJECT_DIR$/havytours/settings.py" />
       </list>
     </option>
   </component>
@@ -161,7 +171,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="views&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/views.py&#10;url&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/urls.py&#10;base&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/base.html&#10;conta&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/contact.html&#10;pa&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/packages.html&#10;admin&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/admin.py&#10;urls&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/urls.py&#10;mode&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/models.py&#10;custo&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/static/main/css/custom_styles.css&#10;packa&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/packages.html&#10;index&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/index.html&#10;c&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/static/main/css/custom_styles.css&#10;view&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/views.py&#10;dow&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/downloads.html&#10;custom&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/static/main/css/custom_styles.css" />
+    <property name="SearchEverywhereHistoryKey" value="sett&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/havytours/settings.py&#10;views&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/views.py&#10;url&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/urls.py&#10;base&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/base.html&#10;conta&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/contact.html&#10;pa&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/packages.html&#10;admin&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/admin.py&#10;urls&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/urls.py&#10;mode&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/models.py&#10;custo&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/static/main/css/custom_styles.css&#10;packa&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/packages.html&#10;index&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/index.html&#10;c&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/static/main/css/custom_styles.css&#10;view&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/views.py&#10;dow&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/downloads.html&#10;custom&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/static/main/css/custom_styles.css" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -528,14 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/havytours/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="127" column="33" lean-forward="false" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -543,6 +545,14 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/havytours/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

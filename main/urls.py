@@ -13,4 +13,5 @@ urlpatterns = [
     path('downloads', views.DownloadsListView.as_view(), name='downloads'),
     path('gallery', views.gallery, name='gallery'),
     path('packages', views.packages, name='packages'),
+    path('sendmail', views.sendmail, name='sendmail')
 ]

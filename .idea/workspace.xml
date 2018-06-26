@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a9358ba-3e46-47b9-a57a-360f5a8766d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/templates/main/sendmail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/main/js/mail-script.js" afterPath="$PROJECT_DIR$/main/static/main/js/mail-script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/main/base.html" afterPath="$PROJECT_DIR$/main/templates/main/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/main/contact.html" afterPath="$PROJECT_DIR$/main/templates/main/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/urls.py" afterPath="$PROJECT_DIR$/main/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/views.py" afterPath="$PROJECT_DIR$/main/views.py" />
-    </list>
+    <list default="true" id="2a9358ba-3e46-47b9-a57a-360f5a8766d5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,68 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="187">
+              <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="packages.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/templates/main/packages.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="79" column="37" lean-forward="false" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/templates/main/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="85" column="40" lean-forward="false" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/havytours/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="127" column="33" lean-forward="false" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -223,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="url&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/urls.py&#10;base&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/base.html&#10;conta&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/contact.html&#10;pa&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/packages.html&#10;admin&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/admin.py&#10;urls&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/urls.py&#10;views&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/views.py&#10;mode&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/models.py&#10;custo&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/static/main/css/custom_styles.css&#10;packa&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/packages.html&#10;index&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/index.html&#10;c&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/static/main/css/custom_styles.css&#10;view&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/views.py&#10;dow&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/downloads.html&#10;custom&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/static/main/css/custom_styles.css" />
+    <property name="SearchEverywhereHistoryKey" value="views&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/views.py&#10;url&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/urls.py&#10;base&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/base.html&#10;conta&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/contact.html&#10;pa&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/packages.html&#10;admin&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/admin.py&#10;urls&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/urls.py&#10;mode&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/models.py&#10;custo&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/static/main/css/custom_styles.css&#10;packa&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/packages.html&#10;index&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/index.html&#10;c&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/static/main/css/custom_styles.css&#10;view&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/views.py&#10;dow&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/templates/main/downloads.html&#10;custom&#9;FILE&#9;file://C:/Users/PingucG/PycharmProjects/havytours/main/static/main/css/custom_styles.css" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -530,16 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/main/packages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="79" column="37" lean-forward="false" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/main/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -564,6 +492,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/main/sendmail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/main/packages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="79" column="37" lean-forward="false" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/main/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -571,22 +517,6 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/havytours/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="127" column="33" lean-forward="false" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/main/sendmail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,10 +528,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/havytours/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="127" column="33" lean-forward="false" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="187">
+          <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.views import generic
+from django.core.mail import send_mail
 
 from main.models import Download, Carousel, Testimonial, Package, PackageTerm, PackagePrice
 
@@ -50,6 +51,6 @@ def packages(request):
     ))
 
 
-def ValuesQuerySetToDict(vqs):
-    return [item for item in vqs]
-
+def sendmail(request):
+    send_mail('Subject here', 'Here is the message.', 'from@example.com', ['makallancg2@gmail.com'], fail_silently=False)
+    return render(request, 'main/sendmail.html')

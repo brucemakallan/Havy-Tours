@@ -120,7 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_URL = '/static/'
+STATIC_URL = '/app/static/'
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
@@ -128,6 +128,9 @@ STATICFILES_DIRS = (
 )
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+# for /static/root/favicon.ico
+WHITENOISE_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'root')
 
 TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),)
 

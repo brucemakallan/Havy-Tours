@@ -1,1 +1,1 @@
-web: gunicorn havytours.wsgi
+web: gunicorn havytours.wsgi —-log-file -

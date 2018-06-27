@@ -28,20 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/havytours/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1806">
-              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="219">
+              <caret line="135" column="14" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/havytours/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="378">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#225#234#0" expanded="true" />
@@ -79,6 +79,8 @@
       <find>static/</find>
       <find>STATIC_ROOT</find>
       <find>STATICFILES_STORAGE</find>
+      <find>STATICFILES_DIRS</find>
+      <find>TEMPLATE_DIRS</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;{% static 'main/img/services/</replace>
@@ -571,21 +573,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/havytours/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="135" column="14" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/havytours/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="378">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#225#234#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/havytours/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1806">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
